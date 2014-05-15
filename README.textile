@@ -1,0 +1,12 @@
+h1. Force-Sensing Linear Potentiometer and LED Strip with Arduino Demo
+
+This is an example Arduino sketch that shows how to use an Interlink force-sensing linear potentiometer (FSLP) to control an addressable RGB LED strip.
+
+This code works with the following FSLPs:
+
+* "Force-Sensing Linear Potentiometer: 1.4&#8243;&times;0.4&#8243; Strip":http://www.pololu.com/product/2729
+* "Force-Sensing Linear Potentiometer: 4.0&#8243;&times;0.4&#8243; Strip, Customizable Length":http://www.pololu.com/product/2730
+
+This code uses the "PololuLedStrip library":https://github.com/pololu/pololu-led-strip-arduino, so it will work with any LED strips supported by that library.  If you do not have an LED strip, you can still use this code to get pressure and sensor readings from the FSLP.
+
+This code should work on any board that is programmable through the Arduino IDE or a similar programming environment.  This includes the "Arduino Uno":http://www.pololu.com/product/2191/ and the "A-Star 32U4 Micro":http://www.pololu.com/product/3101.
