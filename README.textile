@@ -10,3 +10,5 @@ This code works with the following FSLPs:
 This code uses the "PololuLedStrip library":https://github.com/pololu/pololu-led-strip-arduino, so it will work with any LED strips supported by that library.  If you do not have an LED strip, you can still use this code to get pressure and sensor readings from the FSLP.
 
 This code should work on any board that is programmable through the Arduino IDE or a similar programming environment.  This includes the "Arduino Uno":http://www.pololu.com/product/2191/ and the "A-Star 32U4 Micro":http://www.pololu.com/product/3101.
+
+For more details about this code, including a video and a schematic, see our "blog post about the demo":http://www.pololu.com/blog/336.
